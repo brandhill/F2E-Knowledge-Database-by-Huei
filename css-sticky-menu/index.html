@@ -1,0 +1,145 @@
+<style>
+    /* body */
+    body {
+        font-family: 'Lantinghei TC Extralight', '微軟正黑體', Arial;
+    }
+    /* nav */
+    .nav {
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        padding: 20px 0;
+        top: 10px;
+    }
+    .nav ul {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    /* right nav */
+    .nav.right ul {
+        text-align: right;
+    }
+    /* left nav */
+    .nav.left ul {
+        text-align: left;
+    }
+    /* center nav */
+    .nav.center ul {
+        text-align: center;
+    }
+    .nav li {
+        margin: 0 5px 10px 0;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+    }
+    .nav a {
+        padding: 3px 12px 10px 12px;
+        text-decoration: none;
+        color: #999;
+        line-height: 100%;
+    }
+    .nav a:hover {
+        color: #000;
+        border-bottom: 1px solid #000;
+    }
+    .nav .active a {
+        border-bottom: 1px solid #999;
+    }
+    @media screen and (max-width: 600px) {
+        .nav {
+            min-height: 40px;
+        }
+        .nav ul {
+            width: 100%;
+            padding: 5px 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #fff url(images/icon-menu.png) no-repeat 10px 16px;
+            /*border-radius: 5px;*/
+            /*box-shadow: 0 1px 2px rgba(0,0,0,.3);*/
+        }
+        .nav li {
+            display: none;
+            margin: 0;
+        }
+        .nav .active {
+            display: block;
+        }
+        .nav a {
+            display: block;
+            padding: 10px 5px 10px 32px;
+            text-align: left;
+        }
+        .nav .active a {
+            background: none;
+            color: #666;
+        }
+        /* on nav hover */
+        .nav ul:hover {
+            background-image: none;
+        }
+        .nav ul:hover li {
+            display: block;
+            margin: 0 0 5px;
+        }
+        .nav ul:hover .active {
+            background: url(images/icon-menu.png) no-repeat 10px 11px;
+        }
+        /* right nav */
+        .nav.right ul {
+            left: auto;
+            right: 0;
+        }
+        /* center nav */
+        .nav.center ul {
+            left: 50%;
+            margin-left: -90px;
+        }
+    }
+</style>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li class="active"><a href="#">Huei Tan</a>
+            </li>
+            <li><a href="#">CSS Responsive Menu</a>
+            </li>
+            <li><a href="#">CSS Sticky</a>
+            </li>
+            <li><a href="#">Github</a>
+            </li>
+            <li><a href="#">Thanks</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <p>This is the long sample of css-sticky-menu</p>
+    <p>Here's the keyword</p>
+    <p>1. CSS Responsive Menu (Learning from webdesignerwall)</p>
+    <p>2. CSS Sticky ** <a href="http://caniuse.com/css-sticky">caniuse</a>
+    </p>
+    <p>3. Sample menu for myself</p>
+    <p>4. only CSS, no JS</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>......</p>
+    <p>Nothing</p>
+    <p>Just want to get a long page</p>
+
+</body>
