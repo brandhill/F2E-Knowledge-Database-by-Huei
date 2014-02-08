@@ -2,12 +2,13 @@ scrollTo.js
 
 ```javascript
 // http://www.paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
+var offset = 40;
+
 $('a[href^="#"]').on('click',function (e) {
     e.preventDefault();
 
     var target = this.hash,
         $target = $(target),
-        offset = 40,
         elementOffset = $target.offset().top - offset,
         htmlbodyOffset = $('html, body').scrollTop() + offset;
 
@@ -17,7 +18,7 @@ $('a[href^="#"]').on('click',function (e) {
     }
 
     $('html, body').stop().animate({
-        'scrollTop': $target.offset().top - 40
+        'scrollTop': $target.offset().top - offset
     }, 1000, 'swing', function () {
         window.location.hash = target;
     });
