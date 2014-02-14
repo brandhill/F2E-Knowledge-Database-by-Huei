@@ -13,7 +13,7 @@ without RWD case
 ```javascript
 var menu = $('#menu');
 
-$(document).bind('ready scroll resize', function () {
+$(document).bind('scroll', function () {
     var topOffset = $('#menuTop').offset().top,
         bottomOffset = $('#menuBottom').offset().top,
         docScroll = $(document).scrollTop();
@@ -38,7 +38,7 @@ RWD case
 var responseWidth = 991, // depends on css @media max-width = xxxx
     menu = $('#menu');
 
-$(document).bind('ready scroll resize', function () {
+$(document).bind('scroll', function () {
     if ($(document).width() > responseWidth) { // RWD use
         var topOffset = $('#menuTop').offset().top,
             bottomOffset = $('#menuBottom').offset().top,
