@@ -1,0 +1,29 @@
+// -------------------------------------
+//   Header
+// -------------------------------------
+.header {
+  @include colors($black, $white, $gray);
+  @include inline-block-list();
+  position: relative;
+  border-bottom-style: solid;
+  width: 100%;
+  height: 110px;
+
+  ul {
+    position: absolute;
+    right: 0;
+    li {
+      padding: 0 20px;
+      a {
+        @include linkColor($black);
+        img {
+          @include circle(100%);
+          &:hover {
+            @include opacity(0.5);
+          }
+        }
+      }
+    }
+  }
+
+}

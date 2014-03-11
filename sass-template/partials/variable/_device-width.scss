@@ -1,0 +1,37 @@
+
+// -----------------------------------------------
+//   Device width
+//   Reference: http://www.mydevice.io/devices/
+// -----------------------------------------------
+$iphone3-portrait-width: 320px;
+$iphone3-landscape-width: 480px;
+
+$iphone4-portrait-width: 320px;
+$iphone4-landscape-width: 480px;
+
+$iphone5-portrait-width: 320px;
+$iphone5-landscape-width: 568px;
+
+$ipad-portrait-width: 768px;
+$ipad-landscape-width: 1024px;
+
+$kindle-portrait-width: 600px;
+$kindle-landscape-width: 1024px;
+
+$nexus4-portrait-width: 384px;
+$nexus4-landscape-width: 600px;
+
+$galaxy-note-portrait-width: 400px;
+$galaxy-note-landscape-width: 640px;
+
+$galaxy-tab-portrait-width: 800px;
+$galaxy-tab-landscape-width: 1280px;
+
+$google-glass-width: 427px;
+
+// -------------------------------------
+//   Device width used by me
+// -------------------------------------
+$desktop-width: 1920px;
+$pad-width: $galaxy-tab-portrait-width;
+$phone-width: $galaxy-note-portrait-width;

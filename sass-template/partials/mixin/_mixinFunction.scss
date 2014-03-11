@@ -1,0 +1,36 @@
+@mixin colors($text, $background, $border) {
+  @if $text != none{
+    color: $text;
+  }
+  @if $background != none{
+    background-color: $background;
+  }
+  @if $border != none{
+    border-color: $border;
+  }
+}
+
+@mixin linkColor($color) {
+  color: $color;
+
+  &:hover, &:active, &:focus {
+    color: lighten($color, 50%);
+    cursor: pointer;
+  }
+}
+
+@mixin circle($width) {
+  width: $width;
+  height: $width;
+  -webkit-border-radius: $width/2;
+  -moz-border-radius: $width/2;
+  border-radius: $width/2;
+}
+
+@function black($opacity) {
+  @return rgba(17, 17, 17, $opacity);
+}
+
+@function white($opacity) {
+  @return rgba(255, 255, 255, $opacity);
+}
