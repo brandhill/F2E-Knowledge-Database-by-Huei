@@ -1,6 +1,8 @@
 
 // variable
 $column: 12;
+$pad-column: 4;
+$phone-column: 2;
 $gutter: 1/4;
 
 $susy: (
@@ -8,3 +10,26 @@ $susy: (
   gutters: $gutter,
   gutter-position: inside
 );
+
+// grid used by me
+@for $i from 1 through #{$column} {
+  .grid-#{$i}-#{$column} {
+    @include span($i of #{$column});
+  }
+}
+
+@media (max-width: $pad-width) {
+  @for $i from 1 through #{pad-column} {
+    .grid-pad-#{$i}-#{pad-column} {
+      @include span(3*$i of #{column});
+    }
+  }
+}
+
+@media (max-width: $phone-width) {
+  @for $i from 1 through #{phone-column} {
+    .grid-phone-#{$i}-#{phone-column} {
+      @include span(6*$i of #{column});
+    }
+  }
+}

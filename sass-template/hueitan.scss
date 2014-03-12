@@ -1,7 +1,7 @@
 
 // Helpers
 @import "compass/css3";
-@import "compass/typography/lists/";
+@import "compass/typography";
 @import "susy";
 
 // Import (lib)
@@ -22,33 +22,11 @@
 @import "partials/header";
 
 // Footer
+@import "partials/footer";
 
 // -------------------------------------
 //   Container
 // -------------------------------------
-.container{
+.container {
   @include container(880px);
-  .block {
-    @include span(3 of 12);
-    text-align: center;
-    img {
-      @include circle(100px);
-      &:hover {
-        @include opacity(0.5);
-      }
-    }
-
-  }
-
-  @media (max-width: $pad-width) {
-    .block {
-      @include span(6 of 12);
-    }
-  }
-
-  @media (max-width: $phone-width) {
-    .block {
-      @include span(12 of 12);
-    }
-  }
 }
