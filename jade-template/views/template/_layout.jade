@@ -1,0 +1,23 @@
+
+- var baseUrl = '.'
+
+- var css_location = baseUrl + '/stylesheets'
+- var js_location = baseUrl + '/script'
+- var image_location = baseUrl + '/images'
+
+
+doctype html
+html
+    head
+        title Huei Tan
+        link(rel="stylesheet", href="#{css_location}/hueitan.css")
+    body
+
+        include _header.jade
+
+        .container
+            block content
+
+        include _footer.jade
+
+        script(src="#{js_location}/hueitan.js")
