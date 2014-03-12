@@ -8,8 +8,9 @@
 @import "partials/lib/normalize";
 
 // Variable (variable)
-@import "partials/variable/colors";
 @import "partials/variable/device-width";
+@import "partials/variable/colors";
+@import "partials/variable/brandcolors";
 
 // Mixin & Function (mixin)
 @import "partials/mixin/mixinFunction";
