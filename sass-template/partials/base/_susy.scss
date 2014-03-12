@@ -12,24 +12,24 @@ $susy: (
 );
 
 // grid used by me
-@for $i from 1 through #{$column} {
+@for $i from 1 through $column {
   .grid-#{$i}-#{$column} {
-    @include span($i of #{$column});
+    @include span($i of $column);
   }
 }
 
 @media (max-width: $pad-width) {
-  @for $i from 1 through #{pad-column} {
-    .grid-pad-#{$i}-#{pad-column} {
-      @include span(3*$i of #{column});
+  @for $i from 1 through $pad-column {
+    .grid-pad-#{$i}-#{$pad-column} {
+      @include span(3*$i of $column);
     }
   }
 }
 
 @media (max-width: $phone-width) {
-  @for $i from 1 through #{phone-column} {
-    .grid-phone-#{$i}-#{phone-column} {
-      @include span(6*$i of #{column});
+  @for $i from 1 through $phone-column {
+    .grid-phone-#{$i}-#{$phone-column} {
+      @include span(6*$i of $column);
     }
   }
 }
