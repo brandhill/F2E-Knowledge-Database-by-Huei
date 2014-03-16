@@ -18,18 +18,42 @@ $susy: (
   }
 }
 
-@media (max-width: $pad-width) {
+.grid-show {
+  display: block;
+}
+
+.grid-hide {
+  display: none;
+}
+
+@media all and (max-width: $pad-width) {
   @for $i from 1 through $pad-column {
     .grid-pad-#{$i}-#{$pad-column} {
       @include span(3*$i of $column);
     }
   }
+
+  .grid-pad-show {
+    display: block;
+  }
+  
+  .grid-pad-hide {
+    display: none;
+  }
 }
 
-@media (max-width: $phone-width) {
+@media all and (max-width: $phone-width) {
   @for $i from 1 through $phone-column {
     .grid-phone-#{$i}-#{$phone-column} {
       @include span(6*$i of $column);
     }
+  }
+
+  .grid-phone-show {
+    display: block;
+  }
+
+  .grid-phone-hide {
+    display: none;
   }
 }
