@@ -9,8 +9,29 @@
 doctype html
 html
     head
+        meta(name="author", content="")
+        meta(name="title", content="")
+        meta(name="description", content="")
+        meta(name="keywords", content="")
+        meta(name="viewport", content="width=device-width, initial-scale=1, minimal-ui")
+
+        meta(property="og:title", content="")
+        meta(property="og:type", content="")
+        meta(property="og:url", content="")
+        meta(property="og:image", content="")
+        meta(property="og:description", content="")
+        meta(property="og:site_name", content="")
+        
+        block externalMETA
+        
         title Huei Tan
+        
+        block externalTITLE
+        
+        link(rel="shortcut icon", href="/favicon.ico",type="image/x-icon")
         link(rel="stylesheet", href="#{css_location}/hueitan.css")
+        
+        block externalCSS
     body
 
         include _header.jade
@@ -21,3 +42,5 @@ html
         include _footer.jade
 
         script(src="#{js_location}/hueitan.js")
+        
+        block externalJS
