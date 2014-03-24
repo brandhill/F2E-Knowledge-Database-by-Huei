@@ -35,3 +35,15 @@ $google-glass-width: 427px;
 $desktop-width: 1920px;
 $pad-width: $galaxy-tab-portrait-width;
 $phone-width: $galaxy-note-portrait-width;
+
+@mixin pad-mode {
+  @media all and (max-width: $pad-width) {
+    @content;
+  }
+}
+
+@mixin phone-mode {
+  @media all and (max-width: $phone-width) {
+    @content;
+  }
+}
