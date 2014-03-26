@@ -11,6 +11,7 @@ ES6-javascript
 1. [es6-shim](https://github.com/paulmillr/es6-shim/) - ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines
 2. [es5-shim](https://github.com/es-shims/es5-shim) - ECMAScript 5 compatibility shims for legacy JavaScript engines
 3. [TypeScript](http://www.typescriptlang.org/) - TypeScript is a language for application-scale JavaScript. TypeScript adds optional types, classes, and modules to JavaScript. TypeScript supports tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript
+4. [LiveScript](http://livescript.net/) - LiveScript is a language which compiles to JavaScript. It has a straightforward mapping to JavaScript and allows you to write expressive code devoid of repetitive boilerplate.
 4. [traceur-compiler](https://github.com/google/traceur-compiler) - Traceur is a JavaScript.next-to-JavaScript-of-today compiler
 5. [regenerator](https://github.com/facebook/regenerator) - Source transformer enabling ECMAScript 6 generator functions (yield) in JavaScript-of-today (ES5)
 6. [CoffeeScript](http://coffeescript.org/) - CoffeeScript is a little language that compiles into JavaScript
