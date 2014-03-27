@@ -41,10 +41,14 @@ class man implements Person {
     age;
     gender: string = 'male';
 
-    constructor (first = 'Huei', last = 'Tan', age = '22') {
+    constructor (first = 'Huei', last = 'Tan', age = 22) {
         this.firstName = first;
         this.lastName = last;
         this.age = age;
+    }
+
+    getAge () {
+        return this.age;
     }
 }
 
@@ -55,7 +59,7 @@ class woman implements Person {
     age;
     gender: string = 'female';
 
-    constructor (first = 'Huei', last = 'Tan', age = '22') {
+    constructor (first = 'Huei', last = 'Tan', age = 22) {
         this.firstName = first;
         this.lastName = last;
         this.age = age;
@@ -117,5 +121,16 @@ enum score {
 //////////////////////////////////////////////////////
 // Extends - Simple Inheritance
 //////////////////////////////////////////////////////
+class hueitan extends man {
+    constructor(last: string, first: string, a: number) { super(last,first,a); }
+
+    getAge () {
+        return super.getAge() * 2;
+    }
+}
+
+var me = new hueitan('test','a',2);
+
+// hueitan {gender: "male", firstName: "test", lastName: "a", age: 2, constructor: function…}
 
 // etc ....... learning
