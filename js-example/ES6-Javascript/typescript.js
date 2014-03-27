@@ -1,14 +1,40 @@
 // testing for TypeScript
+//////////////////////////////////////////////////////
 // Type Annotations
+//////////////////////////////////////////////////////
 var myString = 'String', myNumber = 1, myBoolean = true, unknown;
 
-//////////////////////////////////////////////////////
-// Module
-// export
-// Classes
-// Interface
-//////////////////////////////////////////////////////
-//
+
+var man = (function () {
+    function man(first, last, age) {
+        if (typeof first === "undefined") { first = 'Huei'; }
+        if (typeof last === "undefined") { last = 'Tan'; }
+        if (typeof age === "undefined") { age = '22'; }
+        this.gender = 'male';
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+    }
+    return man;
+})();
+
+var woman = (function () {
+    function woman(first, last, age) {
+        if (typeof first === "undefined") { first = 'Huei'; }
+        if (typeof last === "undefined") { last = 'Tan'; }
+        if (typeof age === "undefined") { age = '22'; }
+        this.gender = 'female';
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+    }
+    return woman;
+})();
+var huei = new man('CCC');
+var gf = new woman();
+
+// man {gender: "male", firstName: "CCC", lastName: "Tan", age: "22"}
+// woman {gender: "female", firstName: "Huei", lastName: "Tan", age: "22"}
 //////////////////////////////////////////////////////
 // Functions
 // Optional Default Rest Parameter
@@ -57,5 +83,5 @@ var score;
 //////////////////////////////////////////////////////
 // Constraints
 //////////////////////////////////////////////////////
-// etc .......
+// etc ....... learning
 //# sourceMappingURL=typescript.js.map

@@ -1,7 +1,8 @@
 // testing for TypeScript
 
+//////////////////////////////////////////////////////
 // Type Annotations
-
+//////////////////////////////////////////////////////
 var myString: string = 'String',
     myNumber: number = 1,
     myBoolean: boolean = true,
@@ -11,10 +12,49 @@ var myString: string = 'String',
 // Module
 // export
 // Classes
-// Interface
 //////////////////////////////////////////////////////
 
-//
+//////////////////////////////////////////////////////
+// Interface
+//////////////////////////////////////////////////////
+interface Person {
+    firstName: string;
+    lastName: string;
+    age: number;
+}
+
+class man implements Person {
+
+    firstName;
+    lastName;
+    age;
+    gender: string = 'male';
+
+    constructor (first = 'Huei', last = 'Tan', age = '22') {
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+    }
+}
+
+class woman implements Person {
+
+    firstName;
+    lastName;
+    age;
+    gender: string = 'female';
+
+    constructor (first = 'Huei', last = 'Tan', age = '22') {
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+    }
+}
+var huei = new man('CCC');
+var gf = new woman();
+
+// man {gender: "male", firstName: "CCC", lastName: "Tan", age: "22"}
+// woman {gender: "female", firstName: "Huei", lastName: "Tan", age: "22"}
 
 //////////////////////////////////////////////////////
 // Functions
@@ -64,4 +104,4 @@ enum score {
 //////////////////////////////////////////////////////
 
 
-// etc .......
+// etc ....... learning
