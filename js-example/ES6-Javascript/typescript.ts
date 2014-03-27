@@ -6,16 +6,27 @@
 var myString: string = 'String',
     myNumber: number = 1,
     myBoolean: boolean = true,
+    myArray: number[] = [0,0],
+    myObj: { property: string; } = { property: myString },
     unknown: any;
 
 //////////////////////////////////////////////////////
-// Module
-// export
-// Classes
+// Module - export
 //////////////////////////////////////////////////////
+module script{
+    export var from: string = 'typescript';
+    export var to: string = 'javascript';
+
+    export var toString = function () {
+        return 'from ' + this.from + ' to ' + this.to;
+    }
+}
+
+// script.toString();
+// "from typescript to javascript"
 
 //////////////////////////////////////////////////////
-// Interface
+// Interface - Classes
 //////////////////////////////////////////////////////
 interface Person {
     firstName: string;
@@ -103,5 +114,8 @@ enum score {
 // Constraints
 //////////////////////////////////////////////////////
 
+//////////////////////////////////////////////////////
+// Extends - Simple Inheritance
+//////////////////////////////////////////////////////
 
 // etc ....... learning
