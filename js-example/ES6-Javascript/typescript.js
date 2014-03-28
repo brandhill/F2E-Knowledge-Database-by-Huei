@@ -15,11 +15,12 @@ var myString = 'String', myNumber = 1, myBoolean = true, myArray = [0, 0], myObj
 //////////////////////////////////////////////////////
 var script;
 (function (script) {
+    var local = 'localString';
     script.from = 'typescript';
     script.to = 'javascript';
 
     script.toString = function () {
-        return 'from ' + this.from + ' to ' + this.to;
+        return local + ' from ' + this.from + ' to ' + this.to;
     };
 })(script || (script = {}));
 
@@ -113,6 +114,7 @@ var hueitan = (function (_super) {
     __extends(hueitan, _super);
     function hueitan(last, first, a) {
         _super.call(this, last, first, a);
+        this.age = this.getAge();
     }
     hueitan.prototype.getAge = function () {
         return _super.prototype.getAge.call(this) * 2;

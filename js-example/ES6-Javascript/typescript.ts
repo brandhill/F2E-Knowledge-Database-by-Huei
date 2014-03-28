@@ -14,11 +14,12 @@ var myString: string = 'String',
 // Module - export
 //////////////////////////////////////////////////////
 module script{
+    var local: string = 'localString';
     export var from: string = 'typescript';
     export var to: string = 'javascript';
 
     export var toString = function () {
-        return 'from ' + this.from + ' to ' + this.to;
+        return local + ' from ' + this.from + ' to ' + this.to;
     }
 }
 
@@ -122,7 +123,8 @@ enum score {
 // Extends - Simple Inheritance
 //////////////////////////////////////////////////////
 class hueitan extends man {
-    constructor(last: string, first: string, a: number) { super(last,first,a); }
+    constructor(last: string, first: string, a: number) { super(last,first,a);
+    this.age = this.getAge();}
 
     getAge () {
         return super.getAge() * 2;
