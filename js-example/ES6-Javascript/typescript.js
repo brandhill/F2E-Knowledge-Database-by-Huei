@@ -104,6 +104,21 @@ var score;
 //////////////////////////////////////////////////////
 // Generics <T>
 //////////////////////////////////////////////////////
+var typetype = (function () {
+    function typetype(name) {
+        this.name = name;
+    }
+    typetype.prototype.getName = function () {
+        return this.name;
+    };
+    return typetype;
+})();
+
+var numberType = new typetype(123);
+var stringType = new typetype('123');
+
+// numberType {name: 123, getName: function}
+// stringType {name: "123", getName: function}
 //////////////////////////////////////////////////////
 // Constraints
 //////////////////////////////////////////////////////

@@ -114,6 +114,24 @@ enum score {
 //////////////////////////////////////////////////////
 // Generics <T>
 //////////////////////////////////////////////////////
+class typetype<T> {
+
+    public name: T;
+
+    constructor (name?: T) {
+        this.name = name;
+    }
+
+    getName () {
+        return this.name;
+    }
+}
+
+var numberType = new typetype(123);
+var stringType = new typetype('123');
+
+// numberType {name: 123, getName: function}
+// stringType {name: "123", getName: function}
 
 //////////////////////////////////////////////////////
 // Constraints
