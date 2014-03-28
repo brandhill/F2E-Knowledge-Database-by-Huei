@@ -1,4 +1,25 @@
-extends /views/template/_layout
+extends ./views/template/_layout
+
+// Remove this block if you want the default title
+block title
+    | Content title
+
+// Adding external META here
+block externalMETA
+    meta(name="author", content="")
+
+// Adding external CSS file or style
+block externalCSS
+    link(rel="stylesheet", href="external.css")
+    style.
+        .newStyle {
+        }
+
+// Adding external JS file or script
+block externalJS
+    script(src="external.js")
+    script.
+        console.log('external js');
 
 //-------------------------------------
 // content
