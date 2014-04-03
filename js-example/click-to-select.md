@@ -1,12 +1,13 @@
 
 Click to select
-        
+
 Learning from http://goo.gl/
 
-
-// html
+```html
 <span click-to-select>Your value here for click to select</span>
+```
 
+```javascript
 // angularjs directive
 .directive('clickToSelect', [function () {
 
@@ -30,3 +31,4 @@ Learning from http://goo.gl/
             }
         }
 }]);
+```
