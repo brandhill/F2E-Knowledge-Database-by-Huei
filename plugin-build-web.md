@@ -9,6 +9,7 @@ Collection of Building Web
 ###Zoom###
 
 1. [zoomerang](https://github.com/yyx990803/zoomerang) - click to zoom (plugin free)
+2. [jquery-zoomer](http://github.hubspot.com/jquery-zoomer/) - zoom iframe
 
 ###On scroll Animation###
 
