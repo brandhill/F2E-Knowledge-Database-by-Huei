@@ -11,6 +11,9 @@ Collection of Building Web
 1. [zoomerang](https://github.com/yyx990803/zoomerang) - click to zoom (plugin free)
 2. [jquery-zoomer](http://github.hubspot.com/jquery-zoomer/) - zoom iframe
 
+###Hover effect###
+1. [ihover](https://github.com/gudh/ihover) - bootstrap 3 theme
+
 ###On scroll Animation###
 
 1. [scrollReveal](https://github.com/julianlloyd/scrollReveal.js)
