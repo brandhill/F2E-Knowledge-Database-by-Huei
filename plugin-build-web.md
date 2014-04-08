@@ -32,8 +32,19 @@ Collection of Building Web
 5. [notifyjs](http://notifyjs.com/)
 6. [angular-growl](https://github.com/Marcorinck/angular-growl)
 7. [toastr](http://codeseven.github.io/toastr/)
+8. [messenger](http://github.hubspot.com/messenger/)
+
+###Loading###
+1. [pace](https://github.com/HubSpot/pace)
+2. [ngProgress](http://victorbjelkholm.github.io/ngProgress/) - angular solution
 
 ###Questionnaire Survey###
 1. [typeform](http://www.typeform.com/)
+
+###ppt slide###
+1. [vex](https://github.com/hubspot/vex)
+
+###Status###
+1. [Offline](https://github.com/hubspot/offline) - detect online offline
 
 more collection to share ...
