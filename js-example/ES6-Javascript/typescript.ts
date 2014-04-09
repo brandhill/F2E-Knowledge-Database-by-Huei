@@ -10,6 +10,14 @@ var myString: string = 'String',
     myObj: { property: string; } = { property: myString },
     unknown: any;
 
+function voidF(): void {
+    console.log('function void');
+    return;
+}
+
+function stringF(): string {
+    return 'function string';
+}
 //////////////////////////////////////////////////////
 // Module - export
 //////////////////////////////////////////////////////

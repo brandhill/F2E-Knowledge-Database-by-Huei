@@ -10,6 +10,15 @@ var __extends = this.__extends || function (d, b) {
 //////////////////////////////////////////////////////
 var myString = 'String', myNumber = 1, myBoolean = true, myArray = [0, 0], myObj = { property: myString }, unknown;
 
+function voidF() {
+    console.log('function void');
+    return;
+}
+
+function stringF() {
+    return 'function string';
+}
+
 //////////////////////////////////////////////////////
 // Module - export
 //////////////////////////////////////////////////////
