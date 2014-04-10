@@ -50,4 +50,13 @@ Collection of Building Web
 ###Status###
 1. [Offline](https://github.com/hubspot/offline) - detect online offline
 
+###Javascript Script Coding Style###
+- [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
+- [jQuery Core Style Guidelines](http://docs.jquery.com/JQuery_Core_Style_Guidelines)
+- [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwldrn/idiomatic.js/)
+- [Naming this in nested functions](https://gist.github.com/4135065) - Christian Johansen
+- [Conditional Callbacks](https://github.com/airbnb/javascript/issues/52)
+- [Popular JavaScript Coding Conventions on Github](http://sideeffect.kr/popularconvention/#javascript)
+- [airBnb Javascript Guide Style](https://github.com/airbnb/javascript/blob/master/README.md)
+
 more collection to share ...
