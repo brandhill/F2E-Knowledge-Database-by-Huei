@@ -14,7 +14,8 @@ advanced
 
 1. [Lineman](http://www.linemanjs.com/) - Lineman takes everything you love about building server-side applications so that you can find joy in your client-side applications
 2. [yeoman](http://yeoman.io/) - THE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS
-3. etc.. more
+3. [slush](http://klei.github.io/slush) - The streaming scaffolding system - Gulp as a replacement for Yeoman 
+4. etc.. more
 
 package manager
 
