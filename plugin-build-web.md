@@ -58,5 +58,13 @@ Collection of Building Web
 - [Conditional Callbacks](https://github.com/airbnb/javascript/issues/52)
 - [Popular JavaScript Coding Conventions on Github](http://sideeffect.kr/popularconvention/#javascript)
 - [airBnb Javascript Guide Style](https://github.com/airbnb/javascript/blob/master/README.md)
+```
+functionNamesLikeThis; // camelCase
+variableNamesLikeThis;
+ConstructorNamesLikeThis; // PascalCase
+EnumNamesLikeThis;
+methodNamesLikeThis;
+SYMBOLIC_CONSTANTS_LIKE_THIS;
+```
 
 more collection to share ...
