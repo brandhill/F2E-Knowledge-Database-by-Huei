@@ -50,6 +50,9 @@ Collection of Building Web
 ###Status###
 1. [Offline](https://github.com/hubspot/offline) - detect online offline
 
+###Data Query###
+1. [linq](http://linqjs.codeplex.com/) - LINQ for JavaScript
+
 ###Javascript Script Coding Style###
 - [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 - [jQuery Core Style Guidelines](http://docs.jquery.com/JQuery_Core_Style_Guidelines)
