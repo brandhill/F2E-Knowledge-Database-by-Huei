@@ -15,11 +15,13 @@ advanced
 1. [Lineman](http://www.linemanjs.com/) - Lineman takes everything you love about building server-side applications so that you can find joy in your client-side applications
 2. [yeoman](http://yeoman.io/) - THE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS
 3. [slush](http://klei.github.io/slush) - The streaming scaffolding system - Gulp as a replacement for Yeoman 
-4. etc.. more
+4. [volo](https://github.com/volojs/volo) - Create front end projects from templates, add dependencies, and automate the resulting projects
+5. etc.. more
 
 package manager
 
 1. [bower](http://bower.io/) - A package manager for the web
 2. [component](http://component.io) - client package management for building better web applications
 3. [npm package](https://www.npmjs.org/) - Any package can be installed by using npm install
-
+4. [jam](https://github.com/caolan/jam) - The JavaScript package manager - using a browser-focused and RequireJS compatible repository
+5. no more pls, too many is ><
