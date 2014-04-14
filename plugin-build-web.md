@@ -50,6 +50,9 @@ Collection of Building Web
 ###Status###
 1. [Offline](https://github.com/hubspot/offline) - detect online offline
 
+###Utility###
+1. [underscoe](https://github.com/jashkenas/underscore)
+
 ###Data Query###
 1. [linq](http://linqjs.codeplex.com/) - LINQ for JavaScript
 
