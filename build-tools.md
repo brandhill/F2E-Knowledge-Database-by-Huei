@@ -25,3 +25,12 @@ package manager
 3. [npm package](https://www.npmjs.org/) - Any package can be installed by using npm install
 4. [jam](https://github.com/caolan/jam) - The JavaScript package manager - using a browser-focused and RequireJS compatible repository
 5. no more pls, too many is ><
+
+social network for IT
+
+1. [github](http://github.com) - here
+2. [bitbucket](https://bitbucket.org) 
+3. [Koding](https://koding.com) - Koding | A New Way For Developers To Work
+4. [Stackoverflow](http://stackoverflow.com)
+5. [Geeklist](http://geekli.st) - A place for geeks to share what they've done
+6. more ...
