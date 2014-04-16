@@ -41,6 +41,9 @@ Collection of Building Web
 1. [pace](https://github.com/HubSpot/pace)
 2. [ngProgress](http://victorbjelkholm.github.io/ngProgress/) - angular solution
 
+###SVG icon###
+1. [geomicons-open](https://github.com/jxnblk/geomicons-open)
+
 ###Questionnaire Survey###
 1. [typeform](http://www.typeform.com/)
 
