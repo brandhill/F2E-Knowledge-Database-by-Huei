@@ -53,8 +53,11 @@ Collection of Building Web
 ###Status###
 1. [Offline](https://github.com/hubspot/offline) - detect online offline
 
+###Pjax###
+1. [jquery-pjax](https://github.com/defunkt/jquery-pjax)
+
 ###Utility###
-1. [underscoe](https://github.com/jashkenas/underscore)
+1. [underscore](https://github.com/jashkenas/underscore)
 
 ###Data Query###
 1. [linq](http://linqjs.codeplex.com/) - LINQ for JavaScript
