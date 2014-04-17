@@ -58,6 +58,7 @@ Collection of Building Web
 
 ###Utility###
 1. [underscore](https://github.com/jashkenas/underscore)
+2. [lodash](https://github.com/lodash/lodash/)
 
 ###Data Query###
 1. [linq](http://linqjs.codeplex.com/) - LINQ for JavaScript
