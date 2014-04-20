@@ -50,6 +50,7 @@ Collection of Building Web
 
 ###ppt slide###
 1. [vex](https://github.com/hubspot/vex)
+2. [csss](https://github.com/LeaVerou/csss) - CSS-based SlideShow System
 
 ###Status###
 1. [Offline](https://github.com/hubspot/offline) - detect online offline
