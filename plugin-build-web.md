@@ -21,6 +21,7 @@ Collection of Building Web
 ###Anchor Scroll###
 
 1. [jquery.arbitrary-anchor](https://github.com/briangonzalez/jquery.arbitrary-anchor.js)
+2. [scroll](https://github.com/bloodyowl/scroll) - jquery free
 
 ###Background Color / Image###
 
