@@ -22,6 +22,7 @@ Collection of Building Web
 
 1. [jquery.arbitrary-anchor](https://github.com/briangonzalez/jquery.arbitrary-anchor.js)
 2. [scroll](https://github.com/bloodyowl/scroll) - jquery free
+3. [scrollsmartly](https://github.com/shinnn/scrollsmartly/tree/gh-pages) 
 
 ###Background Color / Image###
 
