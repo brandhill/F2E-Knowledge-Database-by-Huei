@@ -34,3 +34,11 @@ social network for IT
 4. [Stackoverflow](http://stackoverflow.com)
 5. [Geeklist](http://geekli.st) - A place for geeks to share what they've done
 6. more ...
+
+get badge for your repo
+
+1. [Travis-CI](https://travis-ci.org/)
+2. [version/module ...](http://badge.fury.io/)
+3. [david](https://david-dm.org/) - WATCHING YOUR NODE.JS DEPENDENCIES.
+4. [Gitter](https://gitter.im) - Chat, for GitHub
+5. more ...
