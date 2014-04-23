@@ -42,4 +42,5 @@ get badge for your repo
 3. [david](https://david-dm.org/) - WATCHING YOUR NODE.JS DEPENDENCIES.
 4. [Gitter](https://gitter.im) - Chat, for GitHub
 5. [NodeICO](https://nodei.co/) - classy Node.js badges, that's all
-6. more ...
+6. [Coveralls](https://coveralls.io/) - CODE COVERAGE HISTORY AND STATS
+7. more ...
