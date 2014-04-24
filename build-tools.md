@@ -37,10 +37,14 @@ social network for IT
 
 get badge for your repo
 
+1. [version/module ...](http://badge.fury.io/)
+2. [david](https://david-dm.org/) - WATCHING YOUR NODE.JS DEPENDENCIES.
+3. [Gitter](https://gitter.im) - Chat, for GitHub
+4. [NodeICO](https://nodei.co/) - classy Node.js badges, that's all
+5. [Coveralls](https://coveralls.io/) - CODE COVERAGE HISTORY AND STATS
+6. more ...
+
+CI and badge
+
 1. [Travis-CI](https://travis-ci.org/)
-2. [version/module ...](http://badge.fury.io/)
-3. [david](https://david-dm.org/) - WATCHING YOUR NODE.JS DEPENDENCIES.
-4. [Gitter](https://gitter.im) - Chat, for GitHub
-5. [NodeICO](https://nodei.co/) - classy Node.js badges, that's all
-6. [Coveralls](https://coveralls.io/) - CODE COVERAGE HISTORY AND STATS
-7. more ...
+2. [drone.io](https://drone.io/)
