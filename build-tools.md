@@ -42,7 +42,8 @@ get badge for your repo
 3. [Gitter](https://gitter.im) - Chat, for GitHub
 4. [NodeICO](https://nodei.co/) - classy Node.js badges, that's all
 5. [Coveralls](https://coveralls.io/) - CODE COVERAGE HISTORY AND STATS
-6. more ...
+6. [waffle.io](https://waffle.io/) - visualization your issue/PR
+7. more ...
 
 CI and badge
 
