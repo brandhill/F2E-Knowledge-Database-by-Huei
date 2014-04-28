@@ -43,7 +43,8 @@ get badge for your repo
 4. [NodeICO](https://nodei.co/) - classy Node.js badges, that's all
 5. [Coveralls](https://coveralls.io/) - CODE COVERAGE HISTORY AND STATS
 6. [waffle.io](https://waffle.io/) - visualization your issue/PR
-7. more ...
+7. [PyPI](https://pypip.in/) - Severals of Badge
+8. more ...
 
 CI and badge
 
