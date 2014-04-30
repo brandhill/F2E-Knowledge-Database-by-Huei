@@ -51,3 +51,4 @@ CI and badge
 
 1. [Travis-CI](https://travis-ci.org/)
 2. [drone.io](https://drone.io/)
+3. [Appveyor](https://ci.appveyor.com)
