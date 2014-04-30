@@ -1,10 +1,10 @@
-
-This is the collection of `Prototype.js` `fastclick.js` to detect Browser, OS
+This is the collection of `Prototype.js` `fastclick.js` `isMobile.js` to detect Browser, OS
 
 ```javascript
 
 // https://github.com/sstephenson/prototype/blob/master/src/prototype/prototype.js#L76
 // https://github.com/ftlabs/fastclick/blob/master/lib/fastclick.js#L174
+// https://github.com/kaimallea/isMobile/blob/master/isMobile.js
 
 var Prototype = (function () {
 
