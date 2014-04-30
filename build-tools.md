@@ -44,7 +44,8 @@ get badge for your repo
 5. [Coveralls](https://coveralls.io/) - CODE COVERAGE HISTORY AND STATS
 6. [waffle.io](https://waffle.io/) - visualization your issue/PR
 7. [PyPI](https://pypip.in/) - Severals of Badge
-8. more ...
+8. [shields](http://shields.io/) - Many Badges
+9. more ...
 
 CI and badge
 
