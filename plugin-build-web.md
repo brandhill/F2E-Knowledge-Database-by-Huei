@@ -63,6 +63,10 @@ Collection of Building Web
 ###Utility###
 1. [underscore](https://github.com/jashkenas/underscore)
 2. [lodash](https://github.com/lodash/lodash/)
+3. [multi-download](https://github.com/sindresorhus/multi-download) - Download multiple files at once
+
+###QR code###
+1. [qr-code](https://github.com/educastellano/qr-code) - Web Component for generating QR codes
 
 ###Data Query###
 1. [linq](http://linqjs.codeplex.com/) - LINQ for JavaScript
