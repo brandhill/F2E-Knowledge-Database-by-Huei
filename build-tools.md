@@ -26,6 +26,10 @@ package manager
 4. [jam](https://github.com/caolan/jam) - The JavaScript package manager - using a browser-focused and RequireJS compatible repository
 5. no more pls, too many is ><
 
+web component (polyfill)
+
+1. [customelements](http://customelements.io/) - a web components gallery for modern web apps
+
 social network for IT
 
 1. [github](http://github.com) - here
