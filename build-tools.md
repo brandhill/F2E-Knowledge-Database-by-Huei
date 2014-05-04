@@ -37,7 +37,8 @@ social network for IT
 3. [Koding](https://koding.com) - Koding | A New Way For Developers To Work
 4. [Stackoverflow](http://stackoverflow.com)
 5. [Geeklist](http://geekli.st) - A place for geeks to share what they've done
-6. more ...
+6. [code-csdn](https://code.csdn.net/?ref=toolbar_logo) - CSDN CODE平台,中国版Github
+7. more ...
 
 get badge for your repo
 
