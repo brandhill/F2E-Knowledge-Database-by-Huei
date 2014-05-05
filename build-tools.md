@@ -24,7 +24,8 @@ package manager
 2. [component](http://component.io) - client package management for building better web applications
 3. [npm package](https://www.npmjs.org/) - Any package can be installed by using npm install
 4. [jam](https://github.com/caolan/jam) - The JavaScript package manager - using a browser-focused and RequireJS compatible repository
-5. no more pls, too many is ><
+5. [ender](http://enderjs.com/#news) - the no-library library
+6. no more pls, too many is ><
 
 web component (polyfill)
 
