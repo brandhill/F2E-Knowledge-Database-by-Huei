@@ -89,4 +89,5 @@ SYMBOLIC_CONSTANTS_LIKE_THIS;
 1. [Selenium IDE/WebDriver](http://docs.seleniumhq.org/projects/ide/)
 2. [chaijs](https://github.com/chaijs/chai) - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
 3. [Nightwatch.js](https://github.com/beatfactor/nightwatch) - UI automated testing framework based on node.js and selenium webdriver
-4. more collection to share ...
+4. [CasperJS](http://casperjs.org/) - CasperJS is a navigation scripting & testing utility for PhantomJS and SlimerJS written in Javascript
+5. more collection to share ...
