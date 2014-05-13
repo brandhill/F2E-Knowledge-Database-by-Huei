@@ -15,7 +15,7 @@ var map,
     markers = [],
     circles = [];
 
-function initialMap(obj) {
+function initialMap() {
     var pos = new google.maps.LatLng(25.0392179,121.5398562);
 
     google.maps.visualRefresh = true;
