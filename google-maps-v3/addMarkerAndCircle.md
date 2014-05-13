@@ -1,4 +1,7 @@
 
+add Marker and Circle
+
+```javascript
 var map,
     markers = [],
     circles = [];
@@ -42,21 +45,21 @@ google.maps.event.addListener(marker, 'click', function () {
 });
 
 // circle
-var cicleOption = {
+var circleOption = {
     strokeColor: 'white',
     strokeOpacity: 0.3,
     strokeWeight: 3,
     fillColor: color || '#ddd',
     fillOpacity: 0.35,
     map: map,
-center: pos,
-radius: radius || 0
+    center: pos,
+    radius: radius || 0
 };
+
 // Add the circle for this city to the map.
-var cityCircle = new google.maps.Circle(cicleOption);
+var Circle = new google.maps.Circle(circleOption);
 
-cityCircles.push(cityCircle);
+circles.push(Circle);
 
-// add data to scope
-$scope.dataSelected.push(obj);
 }
+```
