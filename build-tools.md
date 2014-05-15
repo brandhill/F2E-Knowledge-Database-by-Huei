@@ -32,15 +32,17 @@ web component (polyfill)
 
 1. [customelements](http://customelements.io/) - a web components gallery for modern web apps
 
-social network for IT
+social network / code resource for IT
 
 1. [github](http://github.com) - here
 2. [bitbucket](https://bitbucket.org) 
+3. [CodePlex](https://www.codeplex.com/) - CodePlex - Open Source Project Hosting
 3. [Koding](https://koding.com) - Koding | A New Way For Developers To Work
 4. [Stackoverflow](http://stackoverflow.com)
 5. [Geeklist](http://geekli.st) - A place for geeks to share what they've done
 6. [code-csdn](https://code.csdn.net/?ref=toolbar_logo) - CSDN CODE平台,中国版Github
-7. more ...
+7. [Gurudigger](http://gurudigger.com/)
+8. more ...
 
 get badge for your repo
 
