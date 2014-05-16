@@ -1,9 +1,9 @@
 
 Creating mongodb Restful API through
 
-[node-restify](https://github.com/mcavage/node-restify) - Restful
-[mongodb](http://www.mongodb.org/) - DB
-[??](??) - node CRUD db *too many, finding a better one*
+[node-restify](https://github.com/mcavage/node-restify) - Restful <br/>
+[mongodb](http://www.mongodb.org/) - DB <br/>
+[??](??) - node CRUD db *too many, finding a better one* <br/>
 
 node-restify
 
