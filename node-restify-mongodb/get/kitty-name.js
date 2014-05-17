@@ -10,7 +10,8 @@ var kitty = function (req, res, next) {
 
         kittens.forEach(function (kit) {
             output.push({
-                name: kit.name
+                name: kit.name,
+                newKitten: kit.newKitten
             });
         });
         res.send(output);
