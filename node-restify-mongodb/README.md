@@ -3,16 +3,19 @@
 
 [node-restify](https://github.com/mcavage/node-restify) - Restful <br/>
 [mongodb](http://www.mongodb.org/) - DB <br/>
-[??](??) - node CRUD db *too many, finding a better one* <br/>
+[mongoose](http://mongoosejs.com/) - node CRUD db  <br/>
 [??](??) - api document
 
 **Installation.**
 
 ```bash
+$ brew install mongodb
 $ npm install restify
+$ npm install mongoose
 ```
 
 ```html
+<!-- or install db through download site -->
 <a href="http://www.mongodb.org/downloads"></a>
 ```
 
@@ -47,5 +50,19 @@ server.listen(8080, function () {
 });
 ```
 
+**mongoose**
+
+```javascript
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/test');
+
+var Cat = mongoose.model('Cat', { name: String });
+
+var kitty = new Cat({ name: 'Zildjian' });
+kitty.save(function (err) {
+  if (err) // ...
+  console.log('meow');
+});
+```
 
 
