@@ -42,7 +42,8 @@ social network / code resource for IT
 5. [Geeklist](http://geekli.st) - A place for geeks to share what they've done
 6. [code-csdn](https://code.csdn.net/?ref=toolbar_logo) - CSDN CODE平台,中国版Github
 7. [Gurudigger](http://gurudigger.com/)
-8. more ...
+8. [reddit](http://www.reddit.com/user/huei90/)
+9. more ...
 
 get badge for your repo
 
