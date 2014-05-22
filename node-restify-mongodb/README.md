@@ -26,13 +26,8 @@ $ npm install mongoose
 <a href="http://www.mongodb.org/downloads"></a>
 ```
 
-```
-??
-```
 
-```
-??
-```
-
+**API practice**
+https://github.com/interagent/http-api-design#generate-structured-errors
 
 
