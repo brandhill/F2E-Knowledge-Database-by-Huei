@@ -68,6 +68,9 @@ Collection of Building Web
 2. [lodash](https://github.com/lodash/lodash/)
 3. [multi-download](https://github.com/sindresorhus/multi-download) - Download multiple files at once
 
+###DnD###
+1. [draggability](https://github.com/desandro/draggabilly) - pad
+
 ###QR code###
 1. [qr-code](https://github.com/educastellano/qr-code) - Web Component for generating QR codes
 
