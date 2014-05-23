@@ -25,6 +25,9 @@ Collection of Building Web
 3. [scrollsmartly](https://github.com/shinnn/scrollsmartly/tree/gh-pages) 
 4. [jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)
 
+###Parallex Scroll###
+1. [stellar.js](https://github.com/markdalgleish/stellar.js)
+
 ###Background Color / Image###
 
 1. [jquery.adaptive-backgrounds](https://github.com/briangonzalez/jquery.adaptive-backgrounds.js)
