@@ -10,7 +10,6 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-app.set('view options', { pretty: true });
 
 app.use(favicon());
 app.use(logger('dev'));
@@ -33,6 +32,8 @@ app.use(function(req, res, next) {
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
+    console.log('under development');
+    app.locals.pretty = true;
     app.use(function(err, req, res, next) {
         res.status(err.status || 500);
         res.render('error', {
@@ -44,13 +45,17 @@ if (app.get('env') === 'development') {
 
 // production error handler
 // no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-        message: err.message,
-        error: {}
+if (app.get('env') === 'production') {
+    console.log('under production');
+    app.use(function(err, req, res, next) {
+        res.status(err.status || 500);
+        res.render('error', {
+            message: err.message,
+            error: {}
+        });
     });
-});
+}
+
 
 
 module.exports = app;
