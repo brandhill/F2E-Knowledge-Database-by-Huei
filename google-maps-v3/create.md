@@ -3,6 +3,7 @@ create a google map
 
 ```html
 <div id="map-canvas"></div>
+<script src="//maps.googleapis.com/maps/api/js?sensor=true&libraries=places"></script>
 ```
 ```css
 #map-canvas {
