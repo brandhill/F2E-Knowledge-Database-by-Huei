@@ -1,6 +1,6 @@
-extends layout
+extends shared/layout
 
 block content
-  h1= message
+  h1.error404 404
   h2= error.status
   pre #{error.stack}

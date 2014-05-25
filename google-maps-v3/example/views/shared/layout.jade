@@ -1,6 +1,17 @@
 doctype html
 html
   head
+
+    // meta
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="author", content="")
+    meta(name="title", content="")
+    meta(name="description", content="")
+    meta(name="keywords", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1, minimal-ui")
+    link(rel="canonical" href=canonical)
+
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
@@ -8,6 +19,9 @@ html
 
     .container
         block content
+
+    footer
+       p Company Name Here
 
     script(src='//maps.googleapis.com/maps/api/js?sensor=true&libraries=places')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')

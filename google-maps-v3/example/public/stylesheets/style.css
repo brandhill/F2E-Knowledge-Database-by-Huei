@@ -18,11 +18,12 @@ body {
   -ms-filter: blur(10px);
   filter: blur(10px); }
 
-a {
-  color: #00B7FF; }
-
 .container {
-  padding: 50px; }
+  padding: 40px;
+  padding-bottom: 0px; }
+
+footer {
+  text-align: center; }
 
 #map-canvas {
   border: 1px solid #fff;
@@ -58,3 +59,7 @@ a {
   font-family: Roboto;
   font-size: 13px;
   font-weight: 300; }
+
+.error404 {
+  font-size: 18vw;
+  text-align: center; }

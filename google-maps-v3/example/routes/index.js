@@ -1,9 +1,15 @@
 var express = require('express');
 var router = express.Router();
+var app = require('../app');
 
-/* GET home page. */
+/* GET Index page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Index' });
+  var variables = {
+      title: 'Index',
+      canonical: app.get('domain')
+  };
+
+  res.render('index', variables);
 });
 
 module.exports = router;
