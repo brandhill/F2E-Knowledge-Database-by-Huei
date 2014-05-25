@@ -18,8 +18,9 @@
   text-overflow: ellipsis;
 
   &:focus {
-    background-color: rgb(255, 232, 80);
-    border-color: rgba(255, 230, 77, 0.24);
+
+//    background-color: rgb(255, 232, 80);
+    border-color: #4d90fe;
     width: 401px;
   }
 }

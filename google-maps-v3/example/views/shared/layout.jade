@@ -14,14 +14,17 @@ html
 
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+  body(ng-app="myApp")
     .background-image
+
+    .loading
+        p Something running ...
 
     .container
         block content
 
     footer
-       p Company Name Here
+        p Company Name Here
 
     script(src='//maps.googleapis.com/maps/api/js?sensor=true&libraries=places')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')

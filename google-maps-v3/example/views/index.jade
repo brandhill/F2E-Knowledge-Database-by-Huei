@@ -1,5 +1,6 @@
 extends shared/layout
 
 block content
-  input#pac-input(type='text',class='controls',placeholder='Search')
-  #map-canvas
+  div(ng-controller="indexController")
+    input#pac-input(type='text',class='controls',placeholder='Search')
+    #map-canvas
