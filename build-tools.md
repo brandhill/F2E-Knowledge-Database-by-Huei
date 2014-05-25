@@ -24,9 +24,10 @@ package manager
 1. [bower](http://bower.io/) - A package manager for the web
 2. [component](http://component.io) - client package management for building better web applications
 3. [npm package](https://www.npmjs.org/) - Any package can be installed by using npm install
-4. [jam](https://github.com/caolan/jam) - The JavaScript package manager - using a browser-focused and RequireJS compatible repository
-5. [ender](http://enderjs.com/#news) - the no-library library
-6. no more pls, too many is ><
+4. [CNPM](http://cnpmjs.org/) - Private npm registry and web for Company
+5. [jam](https://github.com/caolan/jam) - The JavaScript package manager - using a browser-focused and RequireJS compatible repository
+6. [ender](http://enderjs.com/#news) - the no-library library
+7. no more pls, too many is ><
 
 web component (polyfill)
 
